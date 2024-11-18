@@ -1,0 +1,83 @@
+/* Basic styling for the forum */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 80%;
+    margin: 20px auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+header {
+    text-align: center;
+}
+
+h1 {
+    font-size: 2.5em;
+    margin: 0.2em 0;
+}
+
+h2 {
+    font-size: 1.8em;
+    margin-bottom: 0.5em;
+}
+
+h3 {
+    font-size: 1.4em;
+    margin-bottom: 0.3em;
+}
+
+.message-board {
+    margin-top: 2em;
+}
+
+.message {
+    background-color: #f1f1f1;
+    padding: 15px;
+    margin: 1em 0;
+    border-radius: 5px;
+}
+
+.message strong {
+    font-weight: bold;
+}
+
+.message-input {
+    margin-top: 2em;
+}
+
+textarea {
+    width: 100%;
+    height: 100px;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1.1em;
+}
+
+button:hover {
+    background-color: #45a049;
+}
